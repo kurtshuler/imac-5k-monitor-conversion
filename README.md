@@ -56,7 +56,7 @@ My next step was to prepare the iMac case. I pulled out nearly everything becaus
 1. I kept the iMac case fan and soldered longer wires onto the leads to later use with a [Noctua NA-FC1](https://noctua.at/en/na-fc1) fan controller I had laying around.
 2. I kept the power button and extended its wires so I can later attach them to the R1811 control strip's on/off button.
 
-When pulling the parts, I noticed that both the logic board and power supply had damaged that looked to be a result of arcing. Now I wasn't so sure the panel would work...
+When pulling the parts, I noticed that both the logic board and power supply had damage that looked to be a result of arcing. Now I wasn't so sure the panel would work...
 
 The "mystery Mac" before gutting. At this point I had no idea if the panel would work.
 <IMAGE HERE>
