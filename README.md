@@ -92,7 +92,7 @@ Here are before and after pictures of the R1811 and the panel.
 
 <IMAGE>
 
-A closeup of the R1811 board and cable connections. The backilight cable configuration will change later, once I add the DZ-LP0818 board for the panel backlight.
+A closeup of the R1811 board and cable connections. The backlight cable configuration will change later, once I add the DZ-LP0818 board for the panel backlight.
 <IMAGE>
 
 ## Power up: The panel works!
