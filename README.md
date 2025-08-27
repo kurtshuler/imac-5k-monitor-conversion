@@ -107,7 +107,7 @@ Here's how to change the OSD language from Chinese to English:
 
 I connected my 2020 MacBook Pro M1 using a Thunderbolt 4 cable I had. The OSD and MacOS show that I am getting retina resolution.
 
-### USB-C PD and screen flicker
+### USB-C Power Delivery (PD) and screen flicker
 At this stage I noticed the screen was flickering, which was initially disheartening. I eventually realized that my MacBook was drawing power through the USB-C to USB-C cable from the display driver's 24v 5 amp power supply. It was doing this even though I had my MacBook plugged into a separate power supply!
 
 > [!IMPORTANT]
