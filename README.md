@@ -52,9 +52,11 @@ Here is what I ordered from Stonetaskin. Prices are all-in. Shipping to Spain fr
 | <img src="https://stonetaskin.com/cdn/shop/files/High-quality-DIY-Universal-Driver-Board-50W-Current-Board-DZ-LP0818-Resolve-the-Panel-brightness-problem.webp?" alt="High-quality DIY Universal Driver Board 50W Current Board DZ-LP0818 Resolve the Panel brightness problem LM270QQ1 LM270QQ2 LM270QQ1" width="300">  |High-quality DIY Universal Driver Board 50W Current Board DZ-LP0818 Resolve the Panel brightness problem LM270QQ1 LM270QQ2 LM270QQ1 | $36.30 |
 
 ## Gutting the iMac case
-After receiving my boards from Stonetaskin, my next step was to prepare the iMac case. I pulled out nearly everything because I am not reusing the iMac's speakers. The case didn't come with a RAM cover, so I'll have to 3D print something later. I removed the AC power socket because I plan on keeping the power supply brick outside the case.
+My next step was to prepare the iMac case. I pulled out nearly everything because I am not reusing the iMac's speakers. The case didn't come with a RAM cover, so I'll have to 3D print something later. I removed the AC power socket because I plan on keeping the power supply brick outside the case.
 1. I kept the iMac case fan and soldered longer wires onto the leads to later use with a [Noctua NA-FC1](https://noctua.at/en/na-fc1) fan controller I had laying around.
 2. I kept the power button and extended its wires so I can later attach them to the R1811 control strip's on/off button.
+
+When pulling the parts, I noticed that both the logic board and power supply had damaged that looked to be a result of arcing. Now I wasn't so sure the panel would work...
 
 The "mystery Mac" before gutting. At this point I had no idea if the panel would work.
 <IMAGE HERE>
@@ -70,10 +72,10 @@ This is the power button with the extended wires.
 
 ## Setting up the initial tests
 
-My next step was to prepare the panel for a power-on test, using only the R1811 display driver board. I figured I would check the DZ-LP0818 constant current backlight board after I knew the R1811 + panel worked.
+My next step was to prepare the panel for a power-on test, using only the R1811 display driver board. I figured I would check the DZ-LP0818 constant current backlight board after I knew the R1811 + panel worked. After seeing the iMac's damaged logic and power supply boards, I felt I was hoping in vain for a good panel.
 
 ### Connect R1811 cables to panel display data socket and backlight cable
-The display data cable is finicky to get in. I watch a couple of Youtube video, which helped.
+The display data cable is finicky to get in. I watched a couple of Youtube video, which helped.
 
 Here is the panel with both cables connected:
 <IMAGE>
@@ -93,7 +95,7 @@ Here are before and after pictures of the R1811 and the panel.
 A closeup of the R1811 board and cable connections. The backilight cable configuration will change later, once I add the DZ-LP0818 board for the panel backlight.
 <IMAGE>
 
-## Power up!
+## Power up: The panel works!
 Here is the R1811 board with the power on.
 <IMAGE>
 
@@ -119,7 +121,7 @@ At this stage I noticed the screen was flickering, which was initially dishearte
 Since I didn't want power delivery from the monitor, I solved the problem by using a USB-C to DisplayPort cable. No more flickering!
 
 ## Adding the DZ-LP0818 50W Constant Current board
-The purpose of this board is to provide additional and constant current to the panel backlight. As panel backlights age they become less bright, and this board is meant to address this issue. Since I had already purchased the board, not knowing whether I would have a bright (or working) panel, I decided to install it, too.
+The purpose of this board is to provide additional and constant current to the panel backlight. As panel backlights age they become less bright, and this board is meant to address this issue. Since I had already purchased the board for my 2015 panel, not knowing whether I would have a bright (or working) panel, I decided to install it, too.
 
 Here is a photo of the DZ-LP0818 connected between the R1811 and the panel's backlight cable.
 <IMAGE>
