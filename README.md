@@ -61,7 +61,7 @@ When pulling the parts, I noticed that both the logic board and power supply had
 The "mystery Mac" before gutting. At this point I had no idea if the panel would work.
 <IMAGE HERE>
 
-The inside of the iMac case with only the fan and power button remaining. I have an iFixit toolkit and it was very helpful. You'll need T5, T8 and T10 drivers, plus an extension to remove a screw that is below the motherboard and accessible through a hole in it. There's info abou this in the Macrumors forum thread.
+The inside of the iMac case with only the fan and power button remaining. I have an iFixit toolkit and it was very helpful. You'll need T5, T8 and T10 drivers, plus an extension to remove a screw that is below the motherboard and accessible through a hole in it. There's info about this in the Macrumors forum thread.
 <IMAGE HERE>
 
 Here's the iMac fan with it's new wires, color-coded to correctly match the Noctua fan controller
