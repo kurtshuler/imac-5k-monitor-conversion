@@ -64,7 +64,8 @@ I have an iFixit toolkit and it was very helpful. You'll need **T5, T8, T10 and 
 When pulling the parts, I noticed that both the logic board and power supply had damage that looked to be a result of arcing. Now I wasn't so sure the panel would work...
 
 The "mystery Mac" before gutting. At this point I had no idea if the panel would work.
-<IMAGE HERE>
+
+<img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/2015%20imac%2027.png" alt="iMac before" width="600">
 
 The inside of the iMac case with only the fan and power button remaining. 
 <IMAGE HERE>
