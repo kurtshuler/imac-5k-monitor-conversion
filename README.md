@@ -136,8 +136,13 @@ Here is a closeup of the DZ-LP0818 cable connections.
 And the R1811 cable connections. (I experimented with USB-C power to see if flickering occured with the constant current board installed. It does.)
 <IMAGE>
 
-## Creating a color profile using the Datacolor Spyder5
-Using the Spyder5 was a pain in the butt because it is no longer supported and the software didn't work well on my Mac. I did create a profile that looked "better" than the iMacPro5K that my Mac originally assigned when I connected the panel.
+### Creating a color profile using the Datacolor Spyder5
+Using the Spyder5 was a pain in the butt because it is no longer supported and the software didn't work well on my Mac. I did create a profile that looked "better" than the iMacPro5K that my Mac originally assigned when I connected the panel. I will do more work on this in the future when I have the monitor internals completed.
+
+### Next steps
+Here are my plans for the near future:
+1. R1811 board fan - Add resisitors to the R1811 board fan so it makes less noise. I have some Noctua ones laying around.
+2. iMac case fan - I already extended the wires but I need to find a way to power it. Rather than connect to the 12V solder pads on the R1811 board, I chose to split the power coming out of the 24V power brick, add a 24V to 12V step down converter (probably with a fuse between it and the power brick, just in case), and a Noctua NA-FC1 fan controller.
 
    
 ### 📑 Key MacRumors Posts
