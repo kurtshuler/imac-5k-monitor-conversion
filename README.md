@@ -54,8 +54,8 @@ Here is what I ordered from Stonetaskin. Prices are all-in. Shipping to Spain fr
 
 ## Gutting the iMac case
 My next step was to prepare the iMac case. I pulled out nearly everything because I am not reusing the iMac's speakers. The case didn't come with a RAM cover, so I'll have to 3D print something later. I removed the AC power socket because I plan on keeping the power supply brick outside the case.
-1. I kept the iMac case fan and soldered longer wires onto the leads to later use with a [Noctua NA-FC1](https://noctua.at/en/na-fc1) fan controller I had laying around.
-2. I kept the power button and extended its wires so I can later attach them to the R1811 control strip's on/off button.
+1. **I kept the iMac case fan** and soldered longer wires onto the leads to later use with a [Noctua NA-FC1](https://noctua.at/en/na-fc1) fan controller I had laying around.
+2. **I left the power button** and extended its wires so I can later attach them to the R1811 control strip's on/off button.
 
 When pulling the parts, I noticed that both the logic board and power supply had damage that looked to be a result of arcing. Now I wasn't so sure the panel would work...
 
