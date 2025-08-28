@@ -220,13 +220,29 @@ Here is a picture of how it all connects together. The step down converter outpu
 
 
 ### Stonetaskin power supply barrel size
-One thing I didn't catch is that the R1811 board has a power barrel socket that requires a 5.5 mm outside diameter and 2.5mm inside diameter barrel plug. "Standard" size is 5.5 mm / 2.1 mm and this is the size [splitter](https://www.amazon.es/dp/B0DX6ZDM3J) I purchased from Amazon. The splitter worked with the Stonetaskin power brick but I needed an adapter to be able to plug it into the R1811 barrel socket. I had one in my junk drawer so it all worked.
+One thing I didn't catch is that the R1811 board has a power barrel socket that requires a 5.5 mm outside diameter and 2.5mm inside diameter barrel plug. "Standard" size is 5.5 mm / 2.1 mm and this is the size [splitter](https://www.amazon.es/dp/B0DX6ZDM3J) I purchased from Amazon. The splitter worked with the Stonetaskin power brick but I needed an adapter to be able to plug it into the R1811 barrel socket. I had one in my junk drawer so it all worked out.
 
 Here is a picture of the barrel connector sizes for the components in my design:
 
 | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/y-splitter-plus-adapter.png" alt="R1811 power supply and splitter barrel sizes" width="600"> |
 |:--:|
 | *Barrel plug sizes for R1811 board, power supply, splitter and adaptor* |
+
+### Setting output voltage on the step down converter
+
+Here is the step down converter I used: https://www.amazon.es/dp/B09DYDV3S5
+
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/step-down-converter.png" alt="step down voltage converter inputs, outputs, and controls" width="600"> |
+|:--:|
+| *Step down converter inputs, outputs and controls* |
+
+When I set it to 12 volts using the converter's LED screen, I measure a slight bit more with my multimeter:
+
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/set-step-down-converter.png" alt="set step down voltage to 12 volts" width="600"> |
+
+### Putting all the electronics together
+
+Here is a photo of all the power electronics connected together. 
 
 
 ## Next steps
