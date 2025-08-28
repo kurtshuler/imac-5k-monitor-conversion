@@ -1,4 +1,4 @@
-# 27" iMac 2015 to 5K Display Conversion (R1811 board)
+# 27" iMac 2015 (A1419) to 5K Display Conversion (R1811 board)
 This is how I converted a 100 EUR ($115) 2015 iMac 27 inch into a 5k monitor, and saved myself at least 1,000 EUR ($1,200). 
 
 *Based off the work by the great community at https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/*
@@ -57,12 +57,16 @@ My next step was to prepare the iMac case. I pulled out nearly everything becaus
 1. **I kept the iMac case fan** and soldered longer wires onto the leads to later use with a [Noctua NA-FC1](https://noctua.at/en/na-fc1) fan controller I had laying around.
 2. **I left the power button** and extended its wires so I can later attach them to the R1811 control strip's on/off button.
 
+Instructions for how to gut the iMac are at https://www.ifixit.com/Guide/iMac+Intel+27-Inch+Retina+5K+Display+Logic+Board+Replacement/30529 
+
+I have an iFixit toolkit and it was very helpful. You'll need **T5, T8, T10 and T25 screwdrivers**, plus an **extension** to remove a T8 screw that is below the motherboard and accessible through a hole in it (for the A1419, the screw is a T8, not a T10 as stated in the iFixit teardown). There's info about this in the Macrumors forum thread.
+
 When pulling the parts, I noticed that both the logic board and power supply had damage that looked to be a result of arcing. Now I wasn't so sure the panel would work...
 
 The "mystery Mac" before gutting. At this point I had no idea if the panel would work.
 <IMAGE HERE>
 
-The inside of the iMac case with only the fan and power button remaining. I have an iFixit toolkit and it was very helpful. You'll need T5, T8 and T10 drivers, plus an extension to remove a screw that is below the motherboard and accessible through a hole in it. There's info about this in the Macrumors forum thread.
+The inside of the iMac case with only the fan and power button remaining. 
 <IMAGE HERE>
 
 Here's the iMac fan with it's new wires, color-coded to correctly match the Noctua fan controller
@@ -149,14 +153,16 @@ Add resisitors to the R1811 board fan so it makes less noise. I have some Noctua
 I already extended the wires but I need to find a way to power it. Rather than connect to the 12V solder pads on the R1811 board, I chose to split the power coming out of the 24V power brick, add a 24V to 12V step down converter (probably with a fuse between it and the power brick, just in case), and a Noctua NA-FC1 fan controller.
 
 ### iMac case fan inlet shroud
-I will use a 3D printed shroud to connect it.
+I will use a 3D printed shroud to connect it. Forum member @Xarli did this https://www.thingiverse.com/thing:6775247. Another make is at https://www.thingiverse.com/thing:7100773.
 
-### Move IR receiver to where webcam was
+### Create mounts for boards and step down converter
+I will 3D print these. I haven't found ones online for the R1811 and DZ-LP0818 that will work for me, yet.
+
+### Move IR receiver to where iMac FaceTime HD webcam was
 I will desolder the R1811 control board's IR receiver and relocate it to where the webcam was located.
 
-### Create new button for OSD and put where USB ports were
-This is a longer-term project to tap into the R1811 controller board with 6x6mm tactile buttons and put them behind new buttons that fit the USB ports in the back. I'll also plug all the other ports. Will require some soldering and 3D printing.
-
+### Create new buttons for the OSD and put where USB ports were
+This is a longer-term project to tap into the R1811 controller board with 6x6 mm tactile buttons and put them behind new button caps that fit the USB ports in the back. I'll also plug all the other ports. Will require some soldering and 3D printing. Forum member @jag001 did this: https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/page-33?post=32702935#post-32702935. I think this user might have .stl I can use https://www.thingiverse.com/thing:7044482/files.
    
 ### 📑 Key MacRumors Posts
 - [@PaulD-UK on wiring & power (#1822)](https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/page-109#post-32717747)  
