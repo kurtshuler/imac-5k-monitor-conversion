@@ -151,6 +151,12 @@ I already extended the wires but I need to find a way to power it. Rather than c
 ### iMac case fan inlet shroud
 I will use a 3D printed shroud to connect it.
 
+### Move IR receiver to where webcam was
+I will desolder the R1811 control board's IR receiver and relocate it to where the webcam was located.
+
+### Create new button for OSD and put where USB ports were
+This is a longer-term project to tap into the R1811 controller board with 6x6mm tactile buttons and put them behind new buttons that fit the USB ports in the back. I'll also plug all the other ports. Will require some soldering and 3D printing.
+
    
 ### 📑 Key MacRumors Posts
 - [@PaulD-UK on wiring & power (#1822)](https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/page-109#post-32717747)  
