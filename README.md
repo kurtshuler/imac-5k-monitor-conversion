@@ -101,11 +101,17 @@ Closeups of the display data cable connection to the panel.
 | *Display data cable* | *Display data connector closeup* |
 
 
-A closeup of the R1811 board backlight cable connected to the panel's backlight cable is below. The black circle side connects with the white side with the line and recesses on the left and right. There's more guidance in the forum thread if needed. If you connect it backwards, the backlight won't come on but apparently you won't fry anything.
+A closeup of the R1811 board backlight cable connected to the panel's backlight cable is below. 
+
+
 
 | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/backlight-cable.png" alt="backlight cable closeup" width="600"> |
 |:--:|
 | *Backlight cable connection closeup* |
+
+> [!IMPORTANT]
+>
+>The black circle side connects with the white side with the line and recesses on the left and right. There's more guidance in the forum thread if needed. If you connect it backwards, the backlight won't come on but apparently you won't fry anything.
 
 ### Connect the R1811 board to the panel
 Here is the R1811 connected to the panel.
@@ -131,7 +137,7 @@ OSD! I flipped the panel and propped it up so I can see it. I used foam blocks u
 | *R1811 startup OSD* |
 
 
-
+### Change OSD to English
 Here's how to change the OSD language from Chinese to English:
 
 | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/osd-chinese.png" alt="osd chinese" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/osd-english.png" alt="osd english" width="400"> |
@@ -139,16 +145,31 @@ Here's how to change the OSD language from Chinese to English:
 | *OSD Chinese language* | *OSD English language* |
 
 
+### Verify Mac 5K resolution
 
-I connected my 2020 MacBook Pro M1 using a Thunderbolt 4 cable I had. The OSD and MacOS show that I am getting retina resolution!
+I connected my 2020 MacBook Pro M1 using a Thunderbolt 4 cable I had. The OSD and MacOS show that I am getting 5K resolution!
+
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/mac-retina-resolution.png" alt="iMac monitor conversion 5K" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/mac-usb-c.png" alt="osd english" width="400"> |
+|:--:|:--:|
+| *5K resolution* | *USB Type C input* |
+
+This is how the panel looks at 50% brightness:
+
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/mac-brightness.png" alt="Panel at 50% brightness*" width="600"> |
+|:--:|
+| *Panel at 50% brightness* |
+
 
 ### USB-C Power Delivery (PD) and screen flicker
 At this stage I noticed the screen was flickering, which was initially disheartening. I eventually realized that my MacBook was drawing power through the USB-C to USB-C cable from the display driver's 24v 5 amp power supply. It was doing this even though I had my MacBook plugged into a separate power supply!
 
-> [!IMPORTANT]
-> If you connect your computer to the **R1811's USB-C port** and you are using an under-powered power supply (is that correct English?), it will try to power your computer and cause the display to **flicker**. The 24V 5A power supply from Stonetaskin is fine to power the monitor alone but cannot also power a computer. 
+> [!CAUTION]
+> If you connect your computer to the **R1811's USB-C port** and you are using an under-powered power supply (is that correct English?), it will try to power your computer and cause the display to **flicker**. The 24V 5A power supply from Stonetaskin is fine to power the panel alone but cannot also power a computer. 
 >
-> a. You can use a **USB-C to DisplayPort cable** instead to get retina resolution without drawing power from the monitor's power supply, or
+> a. You can use a **USB-C to DisplayPort cable** instead to get retina resolution without drawing power from the monitor's power supply,
+>
+> or
+> 
 > b. You can get a **bigger power supply**, like one of the Mean Well's discussed in the forum
 
 Since I didn't want power delivery from the monitor, I solved the problem by using a USB-C to DisplayPort cable. No more flickering!
@@ -162,25 +183,50 @@ Here are photos of the DZ-LP0818 connected between the R1811 and the panel's bac
 |:--:|:--:|
 | *R1811 and DZ-LP0818 connections* |*R1811 and DZ-LP0818 connections closeup* |
 
-Here are closeups of the DZ-LP0818 and 
-
-Here is a closeup of the  cable connections.
-<IMAGE>
-
-And the R1811 cable connections. (I experimented with USB-C power to see if flickering occured with the constant current board installed. It does.)
-<IMAGE>
+> [!IMPORTANT]
+>
+> I experimented with USB-C power to see if flickering occured with the constant current board installed. It does.
 
 ### Creating a color profile using the Datacolor Spyder5
 Using the Spyder5 was a pain in the butt because it is no longer supported and the software didn't work well on my Mac. I did create a profile that looked "better" than the iMacPro5K that my Mac originally assigned when I connected the panel. I will do more work on this in the future when I have the monitor internals completed.
 
+## Reduce R1811 board fan noise
+To reduce the fan noise, I needed to add some resistors to reduce the voltage to it. I happened to have two [Noctua NA-RC7 “Low-Noise Adaptor” (LNA)](https://noctua.at/en/na-src7) laying around so I connected them in series with the fan using JST XH-2P conenctors. The JST connector kit I used is [this one](https://www.amazon.es/dp/B0CKSJPVZF). I need to use JST's for another project so this was an opportunity for me to practice. I have fat fingers and bad eyes...
+
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/board-fan-resistors.png" alt="R1811 board fan with resistors" width="600"> |
+|:--:|
+| *R1811 board fan with resistors* |
+
+> [!NOTE]
+>
+> The yellow and red wires are positive and the the black wires are ground.
+>
+
+The fan is now nearly silent.
+
+## Enable iMac case fan power
+I already extended the wires from the iMac case fan but I needed to find a way to power it. Rather than connect to the 12V solder pads on the R1811 board, I chose to split the power coming out of the 24V power brick, add a 24V to 12V step down converter (with a fuse between it and the power brick, just in case), and a [Noctua NA-FC1 fan controller](https://noctua.at/en/na-fc1).
+
+Here is a picture of how it all connects together. The step down converter output will go to the iMac case fan.
+
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-setup.png" alt="R1811 board fan with resistors" width="600"> |
+|:--:|
+| *iMac monitor conversion power supply setup* |
+
+
+
+### Stonetaskin power supply barrel size
+One thing I didn't catch is that the R1811 board has a power barrel socket that requires a 5.5 mm outside diameter and 2.5mm inside diameter barrel plug. "Standard" size is 5.5 mm / 2.1 mm and this is the size [splitter](https://www.amazon.es/dp/B0DX6ZDM3J) I purchased from Amazon. The splitter worked with the Stonetaskin power brick but I needed an adapter to be able to plug it into the R1811 barrel socket. I had one in my junk drawer so it all worked.
+
+Here is a picture of the barrel connector sizes for the components in my design:
+
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/y-splitter-plus-adapter.png" alt="R1811 power supply and splitter barrel sizes" width="600"> |
+|:--:|
+| *Barrel plug sizes for R1811 board, power supply, splitter and adaptor* |
+
+
 ## Next steps
 Here are my plans for the near future:
-
-### R1811 board fan power
-Add resisitors to the R1811 board fan so it makes less noise. I have some Noctua ones laying around.
-
-### iMac case fan power
-I already extended the wires but I need to find a way to power it. Rather than connect to the 12V solder pads on the R1811 board, I chose to split the power coming out of the 24V power brick, add a 24V to 12V step down converter (probably with a fuse between it and the power brick, just in case), and a Noctua NA-FC1 fan controller.
 
 ### iMac case fan inlet shroud
 I will use a 3D printed shroud to connect it. Forum member @Xarli did this https://www.thingiverse.com/thing:6775247. Another make is at https://www.thingiverse.com/thing:7100773.
