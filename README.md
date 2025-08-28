@@ -63,19 +63,23 @@ I have an iFixit toolkit and it was very helpful. You'll need **T5, T8, T10 and 
 
 When pulling the parts, I noticed that both the logic board and power supply had damage that looked to be a result of arcing. Now I wasn't so sure the panel would work...
 
-The "mystery Mac" before gutting. At this point I had no idea if the panel would work.
 
-<img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/2015%20imac%2027.png" alt="iMac before" width="600">
 
-The inside of the iMac case with only the fan and power button remaining. 
-<IMAGE HERE>
 
-Here's the iMac fan with it's new wires, color-coded to correctly match the Noctua fan controller
-<IMAGE HERE>
 
-This is the power button with the extended wires.
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/2015%20imac%2027.png" alt="iMac before" width="600"> |
+|:--:|
+| *The "mystery Mac" before gutting. At this point I had no idea if the panel would work.* |
 
-<img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-cable-extended.png" alt="power cable extended" width="600">
+
+| IMAGE HERE |
+|:--:|
+| *The inside of the iMac case with only the fan and power button remaining.* |
+
+
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-cable-extended.png" alt="power cable extended" width="600"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-cable-extended.png" alt="power cable extended" width="600"> |
+|:--:|:--:|
+| *This is the power button with the extended wires.* | *Here's the iMac fan with it's new wires, color-coded to correctly match the Noctua fan controller.* |
 
 ## Setting up the initial tests
 
