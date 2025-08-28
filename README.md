@@ -73,7 +73,8 @@ Here's the iMac fan with it's new wires, color-coded to correctly match the Noct
 <IMAGE HERE>
 
 This is the power button with the extended wires.
-<IMAGE HERE>
+
+<img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-cable-extended.png" alt="power cable extended" width="600">
 
 ## Setting up the initial tests
 
