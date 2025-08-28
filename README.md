@@ -77,9 +77,9 @@ When pulling the parts, I noticed that both the logic board and power supply had
 | *The inside of the iMac case with only the fan and power button remaining.* |
 
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-cable-extended.png" alt="power cable extended" width="600"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-cable-extended.png" alt="power cable extended" width="600"> |
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-cable-extended.png" alt="power cable extended" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-cable-extended.png" alt="power cable extended" width="400"> |
 |:--:|:--:|
-| *This is the power button with the extended wires.* | *Here's the iMac fan with it's new wires, color-coded to correctly match the Noctua fan controller.* |
+| *This is the power button with the extended wires.* | *iMac fan with it's new wires, color-coded to correctly match the Noctua fan controller.* |
 
 ## Setting up the initial tests
 
