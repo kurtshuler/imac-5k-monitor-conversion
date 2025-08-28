@@ -89,34 +89,56 @@ My next step was to prepare the panel for a power-on test, using only the R1811 
 The display data cable is finicky to get in. I watched a couple of Youtube videos, which helped.
 
 Here is the panel with both cables connected:
-<IMAGE>
 
-A closeup of the display data cable connection to the panel.
-<IMAGE>
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/panel-cables.png" alt="display panel cables" width="600"> |
+|:--:|
+| *Left: Backlight cable. Right: Data cable.* |
 
-A closeup of the R1811 board backlight cable connected to the panel's backlight cable. The black circle side connects with the white side with the line and recesses on the left and right. There's more guidance in the forum thread if needed. If you connect it backwards, the backlight won't come on but apparently you won't fry anything.
-<IMAGE>
+Closeups of the display data cable connection to the panel.
+
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/display-data-cable.png" alt="display data cable" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/display-data-cable-closeup.png" alt="display data cable closeup" width="400"> |
+|:--:|:--:|
+| *Display data cable* | *Display data connector closeup* |
+
+
+A closeup of the R1811 board backlight cable connected to the panel's backlight cable is below. The black circle side connects with the white side with the line and recesses on the left and right. There's more guidance in the forum thread if needed. If you connect it backwards, the backlight won't come on but apparently you won't fry anything.
+
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/backlight-cable.png" alt="backlight cable closeup" width="600"> |
+|:--:|
+| *Backlight cable connection closeup* |
 
 ### Connect the R1811 board to the panel
-Here are before and after pictures of the R1811 and the panel.
-<IMAGE>
+Here is the R1811 connected to the panel.
 
-<IMAGE>
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/panel-R1811-power-on.png" alt="R1811 cable connections to panel" width="600"> |
+|:--:|
+| *R1811 backlight and data cable connections* |
 
 A closeup of the R1811 board and cable connections. The backlight cable configuration will change later, once I add the DZ-LP0818 board to maintain/increase the panel backlight.
-<IMAGE>
+
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/R1811-connections.png" alt="R1811 cable connections closeup" width="600"> |
+|:--:|
+| *R1811 cable connections closeup* |
+
+
 
 ## Power up: The panel works!
-Here is the R1811 board with the power on.
-<IMAGE>
 
 OSD! I flipped the panel and propped it up so I can see it. I used foam blocks underneath to protect it.
-<IMAGE>
+
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/panel-osd.png" alt="R1811 OSD" width="600"> |
+|:--:|
+| *R1811 startup OSD* |
+
+
 
 Here's how to change the OSD language from Chinese to English:
-<IMAGE>
 
-<IMAGE>
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/osd-chinese.png" alt="osd chinese" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/osd-english.png" alt="osd english" width="400"> |
+|:--:|:--:|
+| *OSD Chinese language* | *OSD English language* |
+
+
 
 I connected my 2020 MacBook Pro M1 using a Thunderbolt 4 cable I had. The OSD and MacOS show that I am getting retina resolution!
 
@@ -134,13 +156,15 @@ Since I didn't want power delivery from the monitor, I solved the problem by usi
 ## Adding the DZ-LP0818 50W Constant Current board
 The purpose of this board is to provide and maintain additional and constant current to the panel backlight. As panel backlights age they become less bright, and this board is meant to address this issue. Since I had already purchased the board for my 2015 panel, not knowing whether I would have a bright (or working) panel, I decided to install it, too.
 
-Here is a photo of the DZ-LP0818 connected between the R1811 and the panel's backlight cable.
-<IMAGE>
+Here are photos of the DZ-LP0818 connected between the R1811 and the panel's backlight cable.
 
-A closeup of the DZ-LP0818 connected to the R1811.
-<IMAGE>
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/R1811-DZ-LP0818-connections.png" alt="R1811 and DZ-LP0818 connections" width="600"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/R1811-DZ-LP0818-connections-closeup.png" alt="R1811 and DZ-LP0818 connections closeup" width="600"> |
+|:--:|:--:|
+| *R1811 and DZ-LP0818 connections* |*R1811 and DZ-LP0818 connections closeup* |
 
-Here is a closeup of the DZ-LP0818 cable connections.
+Here are closeups of the DZ-LP0818 and 
+
+Here is a closeup of the  cable connections.
 <IMAGE>
 
 And the R1811 cable connections. (I experimented with USB-C power to see if flickering occured with the constant current board installed. It does.)
