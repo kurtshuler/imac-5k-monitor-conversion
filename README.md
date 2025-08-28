@@ -3,6 +3,10 @@ This is how I converted a 100 EUR ($115) 2015 iMac 27 inch into a 5k monitor, an
 
 *Based off the work by the great community at https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/*
 
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/2015%20imac%2027.png" alt="iMac before" width="400"> | PICTURE HERE |
+|:--:|:--:|
+| *From this...* | *...to this!* |
+
 ## 🙌 THANK YOU to the members of the DIY 5K iMac Monitor Conversion community!
 
 This project wouldn’t exist without the brilliant tinkerers over at the [MacRumors DIY 5K Monitor Success Thread](https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/).  
