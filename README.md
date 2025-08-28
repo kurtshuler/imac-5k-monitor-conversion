@@ -1,5 +1,5 @@
 # 27" iMac 2015 (A1419) to 5K Display Conversion (R1811 board)
-This is how I converted a 100 EUR ($115) 2015 iMac 27 inch into a 5k monitor, and saved myself at least 1,000 EUR ($1,200). 
+This is how I converted a 100 EUR ($115) 2015 iMac 27 inch into a 5k monitor, and saved myself at least 1,000 EUR :euro: ($1,200 💵). 
 
 *Based off the work by the great community at https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/*
 
