@@ -73,7 +73,7 @@ This is the power button with the extended wires.
 
 ## Setting up the initial tests
 
-My next step was to prepare the panel for a power-on test, using only the R1811 display driver board. I figured I would install the DZ-LP0818 constant current backlight board after I knew the R1811 + panel worked. After seeing the iMac's damaged logic and power supply boards, I felt I was hoping in vain for a good panel.
+My next step was to prepare the panel for a power-on test, using only the R1811 display driver board. I figured I would connect the DZ-LP0818 constant current backlight board after I knew the R1811 + panel worked. 
 
 ### Connect R1811 cables to panel display data socket and backlight cable
 The display data cable is finicky to get in. I watched a couple of Youtube videos, which helped.
@@ -84,7 +84,7 @@ Here is the panel with both cables connected:
 A closeup of the display data cable connection to the panel.
 <IMAGE>
 
-A closeup of the board backlight cable connected to the panel's backlight cable. The black circle side connects with the white side with the line and recesses on the left and right. There's more guidance in the forum thread if needed.
+A closeup of the R1811 board backlight cable connected to the panel's backlight cable. The black circle side connects with the white side with the line and recesses on the left and right. There's more guidance in the forum thread if needed. If you connect it backwards, the backlight won't come on but apparently you won't fry anything.
 <IMAGE>
 
 ### Connect the R1811 board to the panel
@@ -93,14 +93,14 @@ Here are before and after pictures of the R1811 and the panel.
 
 <IMAGE>
 
-A closeup of the R1811 board and cable connections. The backlight cable configuration will change later, once I add the DZ-LP0818 board for the panel backlight.
+A closeup of the R1811 board and cable connections. The backlight cable configuration will change later, once I add the DZ-LP0818 board to maintain/increase the panel backlight.
 <IMAGE>
 
 ## Power up: The panel works!
 Here is the R1811 board with the power on.
 <IMAGE>
 
-OSD! I flipped the panel and propped it up so I can see it. I used foam blocks underneath the protect it.
+OSD! I flipped the panel and propped it up so I can see it. I used foam blocks underneath to protect it.
 <IMAGE>
 
 Here's how to change the OSD language from Chinese to English:
@@ -108,13 +108,13 @@ Here's how to change the OSD language from Chinese to English:
 
 <IMAGE>
 
-I connected my 2020 MacBook Pro M1 using a Thunderbolt 4 cable I had. The OSD and MacOS show that I am getting retina resolution.
+I connected my 2020 MacBook Pro M1 using a Thunderbolt 4 cable I had. The OSD and MacOS show that I am getting retina resolution!
 
 ### USB-C Power Delivery (PD) and screen flicker
 At this stage I noticed the screen was flickering, which was initially disheartening. I eventually realized that my MacBook was drawing power through the USB-C to USB-C cable from the display driver's 24v 5 amp power supply. It was doing this even though I had my MacBook plugged into a separate power supply!
 
 > [!IMPORTANT]
-> If you connect your computer to the **R1811's USB-C port** and you are using an under-powered power supply (is that correct English?), it will try to power your computer and cause the display to **flicker**. The 24v 5a power supply from Stonetaskin is fine to power the monitor but cannot also power a computer. 
+> If you connect your computer to the **R1811's USB-C port** and you are using an under-powered power supply (is that correct English?), it will try to power your computer and cause the display to **flicker**. The 24V 5A power supply from Stonetaskin is fine to power the monitor alone but cannot also power a computer. 
 >
 > a. You can use a **USB-C to DisplayPort cable** instead to get retina resolution without drawing power from the monitor's power supply, or
 > b. You can get a **bigger power supply**, like one of the Mean Well's discussed in the forum
@@ -122,7 +122,7 @@ At this stage I noticed the screen was flickering, which was initially dishearte
 Since I didn't want power delivery from the monitor, I solved the problem by using a USB-C to DisplayPort cable. No more flickering!
 
 ## Adding the DZ-LP0818 50W Constant Current board
-The purpose of this board is to provide additional and constant current to the panel backlight. As panel backlights age they become less bright, and this board is meant to address this issue. Since I had already purchased the board for my 2015 panel, not knowing whether I would have a bright (or working) panel, I decided to install it, too.
+The purpose of this board is to provide and maintain additional and constant current to the panel backlight. As panel backlights age they become less bright, and this board is meant to address this issue. Since I had already purchased the board for my 2015 panel, not knowing whether I would have a bright (or working) panel, I decided to install it, too.
 
 Here is a photo of the DZ-LP0818 connected between the R1811 and the panel's backlight cable.
 <IMAGE>
@@ -137,7 +137,7 @@ And the R1811 cable connections. (I experimented with USB-C power to see if flic
 <IMAGE>
 
 ## Creating a color profile using the Datacolor Spyder5
-
+Using the Spyder5 was a pain in the butt because it is no longer supported and the software didn't work well on my Mac. I did create a profile that looked "better" than the iMacPro5K that my Mac originally assigned when I connected the panel.
 
    
 ### 📑 Key MacRumors Posts
