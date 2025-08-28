@@ -73,7 +73,7 @@ This is the power button with the extended wires.
 
 ## Setting up the initial tests
 
-My next step was to prepare the panel for a power-on test, using only the R1811 display driver board. I figured I would check the DZ-LP0818 constant current backlight board after I knew the R1811 + panel worked. After seeing the iMac's damaged logic and power supply boards, I felt I was hoping in vain for a good panel.
+My next step was to prepare the panel for a power-on test, using only the R1811 display driver board. I figured I would install the DZ-LP0818 constant current backlight board after I knew the R1811 + panel worked. After seeing the iMac's damaged logic and power supply boards, I felt I was hoping in vain for a good panel.
 
 ### Connect R1811 cables to panel display data socket and backlight cable
 The display data cable is finicky to get in. I watched a couple of Youtube videos, which helped.
