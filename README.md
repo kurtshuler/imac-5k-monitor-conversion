@@ -90,16 +90,16 @@ Instructions for how to gut the iMac are at https://www.ifixit.com/Guide/iMac+In
 
 I have an iFixit toolkit and it was very helpful. You'll need **T5, T8, T10 and T25 screwdrivers**, plus an **extension** to remove a T8 screw that is below the motherboard and accessible through a hole in it (for the A1419, the screw is a T8, not a T10 as stated in the iFixit teardown). There's info about this in the Macrumors forum thread.
 
+| *The "Mystery Mac" with speakers and power supply removed. The pesky T8 screw location is circled.* | *Closeup of the recessed T8 logic board screw.* |
+|:--:|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/board-speakers-ps.png" alt="iMac before" width="600"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/logic-board-screw.png" alt="iMac before" width="600"> |
+
 When pulling the parts, I noticed that both the logic board and power supply had damage that looked to be a result of arcing. Now I wasn't so sure the panel would work...
 
-
-| *The "mystery Mac" before gutting. At this point I had no idea if the panel would work.* |
+| *The inside of the iMac case with only the fan and power button remaining (and the antenna wires, which I'll pull out later).* |
 |:--:|
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/2015%20imac%2027.png" alt="iMac before" width="600"> |
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/imac-case-empty.png" alt="imac case empty" width="400"> |
 
-| *The inside of the iMac case with only the fan and power button remaining.* |
-|:--:|
-| IMAGE HERE |
 
 | *This is the power button with the extended wires.* | *iMac fan with it's new wires, color-coded to correctly match the Noctua fan controller.* |
 |:--:|:--:|
