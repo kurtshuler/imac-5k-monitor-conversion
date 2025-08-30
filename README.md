@@ -3,9 +3,10 @@ This is how I converted a 100 EUR ($115) 2015 iMac 27 inch into a 5k monitor, an
 
 *Based off the work by the great community at https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/*
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/2015%20imac%2027.png" alt="iMac before" width="400"> | PICTURE HERE |
-|:--:|:--:|
+
 | *From this...* | *...to this!* |
+|:--:|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/2015%20imac%2027.png" alt="iMac before" width="400"> | PICTURE HERE |
 
 ## 🙌 THANK YOU to the members of the DIY 5K iMac Monitor Conversion community!
 
@@ -17,35 +18,49 @@ Here are some of the contributors whose knowledge helped me the most. Thank you!
 - [**@Aiwi**](https://forums.macrumors.com/members/aiwi.505077/) — Deep dives and detailed project logs. Helped demystify the R1811. Has a GitHub explanation of what he did at https://github.com/aiwipro/5K-iMac-Studio-Display-Stock-Look  
 - [**@ItsAShaunParty**](https://forums.macrumors.com/members/itsashaunparty.823966/) — Created the useful [DIY 5K at Macrumors GPT](https://chatgpt.com/g/g-683af4dc61448191ad6868a38e8cb1b5-diy-5k-monitor-gpt) for ChatGPT.
 
-💡 *Tip:* If you’re diving into this project, [browse the full thread at Macrumors before asking people questions!](https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/)
+
+> [!NOTE]
+>💡 If you’re diving into this project, [browse the full thread at Macrumors before asking people questions!](https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/)
 
 ---
 
-## My goals
+## My approach to this writeup
+
+Rather than simply show my successes and say "Tada!" like a magician pulling a rabbit out of a hat, :magic_wand: :rabbit2:, I am writing this as I am doing the project and will document my failures and false paths. If you see ~~strikethrough text~~, that means I made a mistake or chose a differrent path. Hopefully, this will be more helpful to others than a completely linear success story.
+
+## My motivation
 
 I recently bought a 3D printer and looked for a larger computer monitor for use with my 2020 Macbook Pro M1 and Adobe Fusion. There are lots of affordable 4K monitors but the scaling of text and details has always seemed off to me when using my Mac. I started looking for 5K monitors and was totally surprised to see...not much. And what is available is hugely expensive. While Googling 5K monitor reviews I found the [MacRumors DIY 5K Monitor Success Thread](https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/), and my life changed for the better.
 
-I searched for used 27 inch iMacs on Wallapop, which is Spain's eBay. Imagine my surprise when I found a Late 2015 iMac 27 A1419 with a dead logic board being offered for 100 Euros. I contacted the seller and he said the screen worked fine before the logic board died and that he took it to a shop, but it was too expensive to repair. I took a gamble and paid the 100 Euros, betting that both the seller and the computer technician were honest. (Spoiler: They were! :astonished:)
+I searched for used 27 inch iMacs on Wallapop, which is Spain's eBay. Imagine my surprise when I found a Late 2015 iMac 27 A1419 with a dead logic board being offered for 100 Euros. I contacted the seller and he said the screen worked fine before the logic board died and that he took it to a shop, but it was too expensive to repair. I took a gamble and paid the 100 Euros, betting that both the seller and the computer technician were honest. :crossed_fingers:
 
-When the board arrived I found it was a LM270QQ1 (SD)(B1). Of course, without a working iMac logic board or a new display driver board I had no idea whether it worked.
+When the package arrived I found it was a LM270QQ1 (SD)(B1). Of course, without a working iMac logic board or a new display driver board I had no idea whether it worked.
 
-### Requirements
+I called my new possession the *"Mystery Mac"*.
+
+| *The "Mystery Mac" panel model number.* | *The "Mystery Mac" before gutting. At this point I had no idea if the panel would work.* |
+|:--:| :--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/panel-model-number.png" alt="iMac before" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/2015%20imac%2027.png" alt="iMac before" width="400"> |
+
+## My goals and requirements
 Having purchased the iMac and determined the display model number, I needed to decide on on what driver board and other things to purchase. But before doing that I had to think about my requirements:
 1. **NO AUDIO** - I didn't want to enable the iMac's built-in audio because people on the forum were having issues with it and I am in the process of designing a 3D printed 2.1 sound system.
 2. **NO WEBCAM OR MIC** - I already have an Osbot Meet SE webcam that has better video than the iMac's internal camera. Also, the folks on the Macrumors forum seemed to have a lot of trouble creating a good internal mic solution. Seemed like little value add for lots of work to do this.
-3. **NO USB-C CHARGING** - I already have a CalDigit TS3 Plus dock and find it super-useful. The dock will charge the Mac for me. One option is to connect 2 cables to my Mac to use: One to the dock for power and peripherals and the second to the iMac display for video only. Or perhaps I can just have a single cable from the Mac to the dock.
+3. **NO USB-C CHARGING** - I already have a CalDigit TS3 Plus dock and find it super-useful. I want the dock to charge the Mac for me. The con of using the dock is that it can only pass 5K through it's USB-C / Thunderbolt ports, and I don't know if doing this will cause the display driver board to try to charge the Mac through it's USB-C PD feature. If that happens, I would connect the Mac to the monitor using a DisplayPort 1.4 cable separately from the dock.
 
-   3.a. One thing I learned later is that **I need to use a USB-C to DisplayPort cable for video** to ensure the iMac display's power brick doesn't try to charge my Mac. More on that later.
+   3.a. One thing I learned later is that in the *Mac --> Thunderbolt cable --> Monitor* direct connect configuration (without the CalDigit dock in the mix), the display driver board attempts to power Mac. But I think the supplied power supply is too weak to do this. Therefore, **when connected directly, I need to use a USB-C to DisplayPort cable from the Mac to the display board.** This is confirmed only for the *Mac --> Thunderbolt cable --> Monitor* direct connect configuration.
+
+   3.b. I will need to experiment with the *Mac --> CalDigit dock --> Thunderbolt cable --> Monitor* connection to see if that causes the monitor display board to try to power the Mac.
    
-4. **SILENT**
+5. **SILENT**
    
-   4.1. **I kept the iMac's internal case fan to reuse.** An advantage is that the case was designed to suck in air from the back using the iMac's centrifugal fan and push the air out the bottom. This will help with cooling all the boards in the case. The cons are that I'll need a 24V-to-12V step down converter to run it and it limits where I can mount the R1811 board for easy access to the display inputs. I already have a [Noctua NA-FC1](https://noctua.at/en/na-fc1) fan controller which I'll use to dial down the RPMs so it's silent.
+   4.a. **I kept the iMac's internal case fan to reuse.** An advantage is that the case was designed to suck in air from the back using the iMac's centrifugal fan and push the air out the bottom. This will help with cooling all the boards in the case. The cons are that I'll need a 24V-to-12V step down converter to run it and it limits where I can mount the R1811 board for easy access to the display inputs. I already have a [Noctua NA-FC1](https://noctua.at/en/na-fc1) fan controller which I'll use to dial down the RPMs so it's silent.
    
    4.b. One of the boards, the R1811, comes with a fan that people find noisy, I will **run the board fans with a resistor.** I tested this with some [Noctua NA-RC7 “Low-Noise Adaptor” (LNA)](https://noctua.at/en/na-src7) I have from another project and it works. I have purchased some 180 Ohm 2A resistors from Aliexpress and will replace the Noctua LNA's when I receive them.
 
    4.c. I also prefer to use an **external power supply** for the monitor rather than have it heat up the inside more. The one from Stonetaskin is 24V 5A with a 5.5mm/2.5mm barrel plug. If I want to charge a computer through USB-C power delivery (PD), I'll need a supply with more amperage and power (more on this below). Right now, I don't want to power my computer using the monitor (see above).
 
-5. **IR REMOTE** - I hate reaching around displays to change settings and want an IR remote that I can point to the front of the display to access the driver board's OSD.
+6. **IR REMOTE** - I hate reaching around displays to change settings and want an IR remote that I can point to the front of the display to access the driver board's OSD.
 
 ## Deciding on the display driver board (R1811) and vendor (Stonetaskin)
 
@@ -78,22 +93,17 @@ I have an iFixit toolkit and it was very helpful. You'll need **T5, T8, T10 and 
 When pulling the parts, I noticed that both the logic board and power supply had damage that looked to be a result of arcing. Now I wasn't so sure the panel would work...
 
 
-
-
-
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/2015%20imac%2027.png" alt="iMac before" width="600"> |
-|:--:|
 | *The "mystery Mac" before gutting. At this point I had no idea if the panel would work.* |
-
-
-| IMAGE HERE |
 |:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/2015%20imac%2027.png" alt="iMac before" width="600"> |
+
 | *The inside of the iMac case with only the fan and power button remaining.* |
+|:--:|
+| IMAGE HERE |
 
-
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-cable-extended.png" alt="power cable extended" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-cable-extended.png" alt="power cable extended" width="400"> |
-|:--:|:--:|
 | *This is the power button with the extended wires.* | *iMac fan with it's new wires, color-coded to correctly match the Noctua fan controller.* |
+|:--:|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-cable-extended.png" alt="power cable extended" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-cable-extended.png" alt="power cable extended" width="400"> |
 
 ## Setting up the initial tests
 
