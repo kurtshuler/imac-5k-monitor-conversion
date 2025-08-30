@@ -114,24 +114,21 @@ The display data cable is finicky to get in. I watched a couple of Youtube video
 
 Here is the panel with both cables connected:
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/panel-cables.png" alt="display panel cables" width="600"> |
-|:--:|
 | *Left: Backlight cable. Right: Data cable.* |
+|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/panel-cables.png" alt="display panel cables" width="600"> |
 
 Closeups of the display data cable connection to the panel.
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/display-data-cable.png" alt="display data cable" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/display-data-cable-closeup.png" alt="display data cable closeup" width="400"> |
-|:--:|:--:|
 | *Display data cable* | *Display data connector closeup* |
-
+|:--:|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/display-data-cable.png" alt="display data cable" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/display-data-cable-closeup.png" alt="display data cable closeup" width="400"> |
 
 A closeup of the R1811 board backlight cable connected to the panel's backlight cable is below. 
 
-
-
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/backlight-cable.png" alt="backlight cable closeup" width="600"> |
-|:--:|
 | *Backlight cable connection closeup* |
+|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/backlight-cable.png" alt="backlight cable closeup" width="600"> |
 
 > [!IMPORTANT]
 >
@@ -140,48 +137,50 @@ A closeup of the R1811 board backlight cable connected to the panel's backlight 
 ### Connect the R1811 board to the panel
 Here is the R1811 connected to the panel.
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/panel-R1811-power-on.png" alt="R1811 cable connections to panel" width="600"> |
-|:--:|
 | *R1811 backlight and data cable connections* |
+|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/panel-R1811-power-on.png" alt="R1811 cable connections to panel" width="600"> |
 
 A closeup of the R1811 board and cable connections. The backlight cable configuration will change later, once I add the DZ-LP0818 board to maintain/increase the panel backlight.
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/R1811-connections.png" alt="R1811 cable connections closeup" width="600"> |
-|:--:|
 | *R1811 cable connections closeup* |
-
-
+|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/R1811-connections.png" alt="R1811 cable connections closeup" width="600"> |
 
 ## Power up: The panel works!
 
 OSD! I flipped the panel and propped it up so I can see it. I used foam blocks underneath to protect it.
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/panel-osd.png" alt="R1811 OSD" width="600"> |
-|:--:|
 | *R1811 startup OSD* |
+|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/panel-osd.png" alt="R1811 OSD" width="600"> |
+
 
 
 ### Change OSD to English
 Here's how to change the OSD language from Chinese to English:
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/osd-chinese.png" alt="osd chinese" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/osd-english.png" alt="osd english" width="400"> |
-|:--:|:--:|
 | *OSD Chinese language* | *OSD English language* |
-
+|:--:|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/osd-chinese.png" alt="osd chinese" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/osd-english.png" alt="osd english" width="400"> |
 
 ### Verify Mac 5K resolution
 
 I connected my 2020 MacBook Pro M1 using a Thunderbolt 4 cable I had. The OSD and MacOS show that I am getting 5K resolution!
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/mac-retina-resolution.png" alt="iMac monitor conversion 5K" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/mac-usb-c.png" alt="osd english" width="400"> |
-|:--:|:--:|
 | *5K resolution* | *USB Type C input* |
+|:--:|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/mac-retina-resolution.png" alt="iMac monitor conversion 5K" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/mac-usb-c.png" alt="osd english" width="400"> |
+
+
 
 This is how the panel looks at 50% brightness:
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/mac-brightness.png" alt="Panel at 50% brightness*" width="600"> |
-|:--:|
 | *Panel at 50% brightness* |
+|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/mac-brightness.png" alt="Panel at 50% brightness*" width="600"> |
+
+
 
 
 ### USB-C Power Delivery (PD) and screen flicker
@@ -203,9 +202,11 @@ The purpose of this board is to provide and maintain additional and constant cur
 
 Here are photos of the DZ-LP0818 connected between the R1811 and the panel's backlight cable.
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/R1811-DZ-LP0818-connections.png" alt="R1811 and DZ-LP0818 connections" width="600"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/R1811-DZ-LP0818-connections-closeup.png" alt="R1811 and DZ-LP0818 connections closeup" width="600"> |
-|:--:|:--:|
 | *R1811 and DZ-LP0818 connections* |*R1811 and DZ-LP0818 connections closeup* |
+|:--:|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/R1811-DZ-LP0818-connections.png" alt="R1811 and DZ-LP0818 connections" width="600"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/R1811-DZ-LP0818-connections-closeup.png" alt="R1811 and DZ-LP0818 connections closeup" width="600"> |
+
+
 
 > [!IMPORTANT]
 >
@@ -217,9 +218,9 @@ Using the Spyder5 was a pain in the butt because it is no longer supported and t
 ## Reduce R1811 board fan noise
 To reduce the fan noise, I needed to add some resistors to reduce the voltage to it. I happened to have two [Noctua NA-RC7 “Low-Noise Adaptor” (LNA)](https://noctua.at/en/na-src7) laying around so I connected them in series with the fan using JST XH-2P conenctors. The JST connector kit I used is [this one](https://www.amazon.es/dp/B0CKSJPVZF). I need to use JST's for another project so this was an opportunity for me to practice. I have fat fingers and bad eyes...
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/board-fan-resistors.png" alt="R1811 board fan with resistors" width="600"> |
-|:--:|
 | *R1811 board fan with resistors* |
+|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/board-fan-resistors.png" alt="R1811 board fan with resistors" width="600"> |
 
 > [!NOTE]
 >
@@ -233,31 +234,31 @@ I already extended the wires from the iMac case fan but I needed to find a way t
 
 Here is a picture of how it all connects together. The step down converter output will go to the iMac case fan.
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-setup.png" alt="R1811 board fan with resistors" width="600"> |
-|:--:|
 | *iMac monitor conversion power supply setup* |
-
-
+|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-setup.png" alt="R1811 board fan with resistors" width="600"> |
 
 ### Stonetaskin power supply barrel size
 One thing I didn't catch is that the R1811 board has a power barrel socket that requires a 5.5 mm outside diameter and 2.5mm inside diameter barrel plug. "Standard" size is 5.5 mm / 2.1 mm and this is the size [splitter](https://www.amazon.es/dp/B0DX6ZDM3J) I purchased from Amazon. The splitter worked with the Stonetaskin power brick but I needed an adapter to be able to plug it into the R1811 barrel socket. I had one in my junk drawer so it all worked out.
 
 Here is a picture of the barrel connector sizes for the components in my design:
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/y-splitter-plus-adapter.png" alt="R1811 power supply and splitter barrel sizes" width="600"> |
-|:--:|
 | *Barrel plug sizes for R1811 board, power supply, splitter and adaptor* |
+|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/y-splitter-plus-adapter.png" alt="R1811 power supply and splitter barrel sizes" width="600"> |
 
 ### Setting output voltage on the step down converter
 
 Here is the step down converter I used: https://www.amazon.es/dp/B09DYDV3S5
 
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/step-down-converter.png" alt="step down voltage converter inputs, outputs, and controls" width="600"> |
-|:--:|
 | *Step down converter inputs, outputs and controls* |
+|:--:|
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/step-down-converter.png" alt="step down voltage converter inputs, outputs, and controls" width="600"> |
 
 When I set it to 12 volts using the converter's LED screen, I measure a slight bit more with my multimeter:
 
+| *Display is close to multimeter* |
+|:--:|
 | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/set-step-down-converter.png" alt="set step down voltage to 12 volts" width="600"> |
 
 ### Putting all the electronics together
