@@ -92,7 +92,7 @@ I have an iFixit toolkit and it was very helpful. You'll need **T5, T8, T10 and 
 
 | *The "Mystery Mac" with speakers and power supply removed. The pesky T8 screw location is circled.* | *Closeup of the recessed T8 logic board screw.* |
 |:--:|:--:|
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/board-speakers-ps.png" alt="iMac before" width="600"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/logic-board-screw.png" alt="iMac before" width="600"> |
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/board-speakers-ps.png" alt="iMac before" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/logic-board-screw.png" alt="iMac before" width="400"> |
 
 When pulling the parts, I noticed that both the logic board and power supply had damage that looked to be a result of arcing. Now I wasn't so sure the panel would work...
 
