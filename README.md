@@ -96,7 +96,7 @@ I have an iFixit toolkit and it was very helpful. You'll need **T5, T8, T10 and 
 
 When pulling the parts, I noticed that both the logic board and power supply had damage that looked to be a result of arcing. Now I wasn't so sure the panel would work...
 
-| *The inside of the iMac case with only the fan and power button remaining (and the antenna wires, which I'll pull out later).* |
+| *The inside of the iMac case with only the fan and power button remaining.* |
 |:--:|
 | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/imac-case-empty.png" alt="imac case empty" width="400"> |
 
