@@ -58,7 +58,7 @@ Having purchased the iMac and determined the display model number, I needed to d
    
    4.b. One of the boards, the R1811, comes with a fan that people find noisy, I will **run the board fans with a resistor.** I tested this with some [Noctua NA-RC7 “Low-Noise Adaptor” (LNA)](https://noctua.at/en/na-src7) I have from another project and it works. I have purchased some 180 Ohm 2A resistors from Aliexpress and will replace the Noctua LNA's when I receive them.
 
-   4.c. I also prefer to use an **external power supply** for the monitor rather than have it heat up the inside more. The one from Stonetaskin is 24V 5A with a 5.5mm/2.5mm barrel plug. If I want to charge a computer through USB-C power delivery (PD), I'll need a supply with more amperage and power (more on this below). Right now, I don't want to power my computer using the monitor (see above).
+   4.c. I also prefer to use an **external power supply** for the monitor rather than have it heat up the inside more. The one from Stonetaskin is **24V 5A** with a **5.5mm/2.5mm barrel plug.** If I want to charge a computer through USB-C power delivery (PD), I'll need a supply with more amperage and power (more on this below). Right now, I don't want to power my computer using the monitor (see above).
 
 6. **IR REMOTE** - I hate reaching around displays to change settings and want an IR remote that I can point to the front of the display to access the driver board's OSD.
 
