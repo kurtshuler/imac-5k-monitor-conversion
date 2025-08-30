@@ -38,7 +38,7 @@ When the package arrived I found it was a LM270QQ1 (SD)(B1). Of course, without 
 
 I called my new possession the *"Mystery Mac"*.
 
-| *The "Mystery Mac" panel model number.* | *The "Mystery Mac" before gutting. At this point I had no idea if the panel would work.* |
+| *The "Mystery Mac" panel model number.* | *The "Mystery Mac" before gutting. At this point <br />I had no idea if the panel would work.* |
 |:--:| :--:|
 | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/panel-model-number.png" alt="iMac before" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/2015%20imac%2027.png" alt="iMac before" width="400"> |
 
@@ -90,7 +90,7 @@ Instructions for how to gut the iMac are at https://www.ifixit.com/Guide/iMac+In
 
 I have an iFixit toolkit and it was very helpful. You'll need **T5, T8, T10 and T25 screwdrivers**, plus an **extension** to remove a T8 screw that is below the motherboard and accessible through a hole in it (for the A1419, the screw is a T8, not a T10 as stated in the iFixit teardown). There's info about this in the Macrumors forum thread.
 
-| *The "Mystery Mac" with speakers and power supply removed. The pesky T8 screw location is circled.* | *Closeup of the recessed T8 logic board screw.* |
+| *The "Mystery Mac" with speakers and power supply <br />removed. The pesky T8 screw location is circled.* | *Closeup of the recessed T8 logic board screw.* |
 |:--:|:--:|
 | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/board-speakers-ps.png" alt="iMac before" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/logic-board-screw.png" alt="iMac before" width="400"> |
 
@@ -98,10 +98,10 @@ When pulling the parts, I noticed that both the logic board and power supply had
 
 | *The inside of the iMac case with only the fan and power button remaining.* |
 |:--:|
-| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/imac-case-empty.png" alt="imac case empty" width="400"> |
+| <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/imac-case-empty.png" alt="imac case empty" width="600"> |
 
 
-| *This is the power button with the extended wires.* | *iMac fan with it's new wires, color-coded to correctly match the Noctua fan controller.* |
+| *This is the power button with the extended wires.* | *iMac fan with it's new wires, color-coded to <br />correctly match the Noctua fan controller.* |
 |:--:|:--:|
 | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/power-cable-extended.png" alt="power cable extended" width="400"> | <img src="https://github.com/kurtshuler/imac-5k-monitor-conversion/blob/main/images/imac-fan.png" alt="imac fan wires" width="400"> |
 
