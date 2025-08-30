@@ -33,8 +33,18 @@ When the board arrived I found it was a LM270QQ1 (SD)(B1). Of course, without a 
 Having purchased the iMac and determined the display model number, I needed to decide on on what driver board and other things to purchase. But before doing that I had to think about my requirements:
 1. **NO AUDIO** - I didn't want to enable the iMac's built-in audio because people on the forum were having issues with it and I am in the process of designing a 3D printed 2.1 sound system.
 2. **NO WEBCAM OR MIC** - I already have an Osbot Meet SE webcam that has better video than the iMac's internal camera. Also, the folks on the Macrumors forum seemed to have a lot of trouble creating a good internal mic solution. Seemed like little value add for lots of work to do this.
-3. **NO USB-C CHARGING** - I already have a CalDigit TS3 Plus dock and find it super-useful. The dock will charge the Mac for me. One option is to connect 2 cables to my Mac to use: One to the dock for power and peripherals and the second to the iMac display for video only. Or perhaps I can just have a single cable from the Mac to the dock. One thing I learned later is that **I need to use a USB-C to DisplayPort cable for video** to ensure the iMac display's power brick doesn't try to charge my Mac. More on that later.
-4. **SILENT** - One of the boards, the R1811, comes with a fan that people find noisy. So I kept the iMac's internal case fan to reuse that and maybe also run the R1811's board fan with some resistors. I also prefer to use an external power brick for the monitor rather than have it heat up the inside more.
+3. **NO USB-C CHARGING** - I already have a CalDigit TS3 Plus dock and find it super-useful. The dock will charge the Mac for me. One option is to connect 2 cables to my Mac to use: One to the dock for power and peripherals and the second to the iMac display for video only. Or perhaps I can just have a single cable from the Mac to the dock.
+
+   3.a. One thing I learned later is that **I need to use a USB-C to DisplayPort cable for video** to ensure the iMac display's power brick doesn't try to charge my Mac. More on that later.
+   
+4. **SILENT**
+   
+   4.1. **I kept the iMac's internal case fan to reuse.** An advantage is that the case was designed to suck in air from the back using the iMac's centrifugal fan and push the air out the bottom. This will help with cooling all the boards in the case. The cons are that I'll need a 24V-to-12V step down converter to run it and it limits where I can mount the R1811 board for easy access to the display inputs. I already have a [Noctua NA-FC1](https://noctua.at/en/na-fc1) fan controller which I'll use to dial down the RPMs so it's silent.
+   
+   4.b. One of the boards, the R1811, comes with a fan that people find noisy, I will **run the board fans with a resistor.** I tested this with some [Noctua NA-RC7 “Low-Noise Adaptor” (LNA)](https://noctua.at/en/na-src7) I have from another project and it works. I have purchased some 180 Ohm 2A resistors from Aliexpress and will replace the Noctua LNA's when I receive them.
+
+   4.c. I also prefer to use an **external power supply** for the monitor rather than have it heat up the inside more. The one from Stonetaskin is 24V 5A with a 5.5mm/2.5mm barrel plug. If I want to charge a computer through USB-C power delivery (PD), I'll need a supply with more amperage and power (more on this below). Right now, I don't want to power my computer using the monitor (see above).
+
 5. **IR REMOTE** - I hate reaching around displays to change settings and want an IR remote that I can point to the front of the display to access the driver board's OSD.
 
 ## Deciding on the display driver board (R1811) and vendor (Stonetaskin)
