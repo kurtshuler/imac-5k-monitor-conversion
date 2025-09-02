@@ -199,8 +199,10 @@ Since I didn't want power delivery from the monitor, I solved the problem by usi
 
 ### Pink edge coloration on 2015 LG LM270QQ1 SD(B1) panels
 
-My panel does have the pink edge coloration that is common on LG LM270QQ1 SD(B1). This is explained in the Macrumors forum thread at
+My panel does have the pink edge coloration that is common on LG LM270QQ1 SD(B1) panels. This is explained in the Macrumors forum thread at
 https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/post-33552575.
+
+This defect does not occur with 2017 and later iMac moodels with LG LM270QQ1 SD(C1/D1/E1/F1) panels.
 
 My pink edges are visible when I have a white or gray background close the panel edges. They are like a pink translucent gradient, darkest at the far edges and disappearing about 2 cm in. Noticiable, but not a deal-killer for me.
 
