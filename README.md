@@ -26,7 +26,7 @@ Here are some of the contributors whose knowledge helped me the most. Thank you!
 
 ## My approach to this writeup
 
-Rather than simply show my successes and say "Tada!" like a magician pulling a rabbit out of a hat, :magic_wand: :rabbit2:, I am writing this as I am doing the project and will document my failures and false paths. If you see ~~strikethrough text~~, that means I made a mistake or chose a differrent path. Hopefully, this will be more helpful to others than a completely linear success story.
+Rather than simply show my successes and say "Tada!" like a magician pulling a rabbit out of a hat, :tophat: :magic_wand: :rabbit2:, I am writing this as I am doing the project and will document my failures and false paths. If you see ~~strikethrough text~~, that means I made a mistake or chose a differrent path. Hopefully, this will be more helpful to others than a completely linear success story.
 
 ## My motivation
 
