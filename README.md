@@ -197,6 +197,16 @@ At this stage I noticed the screen was flickering, which was initially dishearte
 
 Since I didn't want power delivery from the monitor, I solved the problem by using a USB-C to DisplayPort cable. No more flickering!
 
+### Pink edge coloration on 2015 LG LM270QQ1 SD(B1) panels
+
+My panel does have the pink edge coloration that is common on LG LM270QQ1 SD(B1). This is explained in the Macrumors forum thread at
+https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/post-33552575.
+
+My pink edges are visible when I have a white or gray background close the panel edges. They are like a pink translucent gradient, darkest at the far edges and disappearing about 2 cm in. Noticiable, but not a deal-killer for me.
+
+However, if I do another iMac 5K display conversion, I'll probably consider a 2017 iMac 27 inch, even though those sell for 350-400 Euros on wallapop.es.
+
+
 ## Adding the DZ-LP0818 50W Constant Current board
 The purpose of this board is to provide and maintain additional and constant current to the panel backlight. As panel backlights age they become less bright, and this board is meant to address this issue. Since I had already purchased the board for my 2015 panel, not knowing whether I would have a bright (or working) panel, I decided to install it, too.
 
