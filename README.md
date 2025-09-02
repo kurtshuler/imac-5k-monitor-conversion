@@ -204,7 +204,7 @@ https://forums.macrumors.com/threads/diy-5k-monitor-success.2253100/post-3355257
 
 This defect does not occur with 2017 and later iMac moodels with LG LM270QQ1 SD(C1/D1/E1/F1) panels.
 
-My pink edges are visible when I have a white or gray background close the panel edges. They are like a pink translucent gradient, darkest at the far edges and disappearing about 2 cm in. Noticiable, but not a deal-killer for me.
+My pink edges are visible when I have a white or gray background close to the panel edges. They are like a pink translucent gradient, darkest at the far edges and disappearing about 2.5cm / 1in in. Noticiable, but not a deal-killer for me given the low price I paid.
 
 However, if I do another iMac 5K display conversion, I'll probably consider a 2017 iMac 27 inch, even though those sell for 350-400 Euros on wallapop.es.
 
