@@ -34,7 +34,7 @@ I recently bought a 3D printer and looked for a larger computer monitor for use 
 
 I searched for used 27 inch iMacs on Wallapop, which is Spain's eBay. Imagine my surprise when I found a Late 2015 iMac 27 A1419 with a dead logic board being offered for 100 Euros. I contacted the seller and he said the screen worked fine before the logic board died and that he took it to a shop, but it was too expensive to repair. I took a gamble and paid the 100 Euros, betting that both the seller and the computer technician were honest. :crossed_fingers:
 
-When the package arrived I found it was a LM270QQ1 (SD)(B1). Of course, without a working iMac logic board or a new display driver board I had no idea whether it worked.
+When the package arrived I found it was a `LM270QQ1 (SD)(B1)`. Of course, without a working iMac logic board or a new display driver board I had no idea whether it worked.
 
 I called my new possession the *"Mystery Mac"*.
 
